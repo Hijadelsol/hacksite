@@ -66,8 +66,7 @@ border-bottom: 0 solid transparent !important;}
   padding:30px;
 float:left;
 }
-.line-top-grey{padding:30px;border-top:1px solid #ededed;  border-bottom:0px solid transparent;}
-
+.line-top-grey{padding-top:30px;padding-bottom:30px; border-top:1px solid #ededed; min-width:100%;  border-bottom:0px solid transparent;}
 .top-60{padding-top:60px;}
 
 .padded:nth-child(1) {
@@ -76,6 +75,13 @@ float:left;
 .padded{
   padding:0 10px;
 }
+
+.course {background-color:#b2dfdb !important;opacity:0.6;border:0 solid transparent !important ;}
+
+.course > .list-group .list-group-item  {background-color:rgba(0,0,0,0)!important; border: 0 solid transparent;}
+.course > .list-group .list-group-item:hover,
+.course > .list-group .list-group-item:focus {background-color:rgba(255,255,255,0.6)!important; border: 0 solid transparent;}
+.course > .list-group .list-group-item:active {background-color:rgba(255,255,255,1)!important; border: 0 solid transparent;}
 
 @media (min-width: 768px) {
 .carousel-caption p {
