@@ -4,7 +4,7 @@ body{padding-top:50px !important;
 }
 
 .navbar{background-color: #c1dad6 !important;
-border-bottom-color: transparent !important:}
+border-bottom: 0 solid transparent !important;}
 
 .centered{
   text-align: center;
