@@ -310,7 +310,6 @@ padding-top:30px;padding-bottom:30px; border-top:1px solid #ededed; min-width:10
 
 .go-top {
   float: right;
-
   right: 2em;
   text-decoration: none;
   color: white;
@@ -330,4 +329,60 @@ padding-top:30px;padding-bottom:30px; border-top:1px solid #ededed; min-width:10
   bottom: 0;
   left: 0;
   padding: 1rem;
+}
+#email{
+  width: 50%;
+}
+
+#email1{
+  width: 30%;
+}
+
+#name1{
+  width: 20%;
+}
+
+
+
+#pwd{
+  width: 50%;
+}
+
+#pwd1{
+  width: 30%;
+}
+
+#submit{
+  background-color: #ef9a9a;
+}
+
+#box{
+  width: 200px;
+text-align: center;
+margin-left: 23%;
+height: 100px;
+background: repeating-linear-gradient(
+  -55deg,
+  #b2dfdb,
+  #b2dfdb 10px,
+  #e0e0e0 10px,
+  #e0e0e0 20px
+);
+
+font-size: 20px;
+color: #546e7a;
+}
+
+#panelInside{
+  padding-top: 10%;
+
+}
+
+.lablelForm{
+  color: #546e7a;
+}
+
+.regHeader{
+  color: #ef9a9a;
+  text-align: center;
 }
