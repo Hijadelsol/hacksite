@@ -1,7 +1,4 @@
-body{padding-top:50px !important;
-
-    direction: rtl;
-}
+body{padding-top:50px !important;}
 
 .navbar{background-color: #c1dad6 !important;
 border-bottom: 0 solid transparent !important;}
@@ -63,6 +60,22 @@ border-bottom: 0 solid transparent !important;}
   color: #000;
 }
 
+.line-grey{
+  border-top:1px solid #ededed;
+  border-bottom:1px solid #ededed;
+  padding:30px;
+float:left;
+}
+.line-top-grey{padding:30px;border-top:1px solid #ededed;  border-bottom:0px solid transparent;}
+
+.top-60{padding-top:60px;}
+
+.padded:nth-child(1) {
+    padding-left:0 !important;
+}
+.padded{
+  padding:0 10px;
+}
 
 @media (min-width: 768px) {
 .carousel-caption p {
