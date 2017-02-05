@@ -10,6 +10,10 @@ section{padding-top: 50px; padding-bottom: 50px;}
   text-align: center;
 }
 
+.submit{width:100%;
+  padding-top: 20px;
+}
+
 .container-fluid.percent{
   padding-left: 10% !important;
   padding-right: 10% !important;
@@ -95,6 +99,19 @@ padding-top:30px;padding-bottom:30px; border-top:1px solid #ededed; min-width:10
 .course > .list-group a:hover;.course > .list-group a:focus {color:#000;}
 .lesson-list > .list-group a {color:#333;}
 
+.footer {
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color:rgba(0, 150, 136, 0.3);
+}
+.footer .container{text-align: center;}
+
+
 @media (min-width: 768px) {
 .carousel-caption p {
   margin-bottom: 20px;
@@ -176,15 +193,6 @@ padding-top:30px;padding-bottom:30px; border-top:1px solid #ededed; min-width:10
     bottom: -0.5em;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #B7EDFF;
-}
-
 
 .arrow-down {
     width: 0;
@@ -207,37 +215,6 @@ padding-top:30px;padding-bottom:30px; border-top:1px solid #ededed; min-width:10
     color: #666;
 }
 
-.dd{
-  background: url("../photos/x2.png");
-
-}
-
-.fo2{
-  width: 100%;
-}
-
-.fop{
-  text-align: center;
-  padding-top: 4%;
-  color: #546e7a;
-  font-family: 'Changa', sans-serif;
-  font-size: 18px;
-}
-
-.fo3{
-  padding-left: 47%;
-  font-size: 30px;
-  height: 100px;
-  color: #3E4551;
-}
-
-.fo4{
-      padding-left: 40%;
-      font-size: 15px;
-  color: #000;
-  padding-bottom: 23px;
-
-}
 
 #bt{
   height: 50px;
@@ -339,38 +316,6 @@ padding-top:30px;padding-bottom:30px; border-top:1px solid #ededed; min-width:10
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.fooo{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-}
-#email{
-  width: 50%;
-}
-
-#email1{
-  width: 30%;
-}
-
-#name1{
-  width: 20%;
-}
-
-
-
-#pwd{
-  width: 50%;
-}
-
-#pwd1{
-  width: 30%;
-}
-
-#submit{
-  background-color: #ef9a9a;
-}
 
 #box{
   width: 200px;
@@ -387,18 +332,4 @@ background: repeating-linear-gradient(
 
 font-size: 20px;
 color: #546e7a;
-}
-
-#panelInside{
-  padding-top: 10%;
-
-}
-
-.lablelForm{
-  color: #546e7a;
-}
-
-.regHeader{
-  color: #ef9a9a;
-  text-align: center;
 }
